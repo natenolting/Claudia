@@ -7,11 +7,12 @@
 </head>
   <Body>
 
-<form>
+<form action="Endpoint.php"method="post">
+
   <Label>
     Name
   </label>
-  <input type="text"><br>
+  <input type="text"value="name"id="name"name="Name"><br>
   <Label>
     Phone
   </label>
@@ -25,7 +26,7 @@
   </label>
     <textarea rows="8" cols="30">
     </textarea>
-
+<input type="Submit"name="submit"value="submit"id="submit" />
 </form>
 
   </Body>
